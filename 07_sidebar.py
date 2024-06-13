@@ -14,12 +14,12 @@ st.sidebar.write(user_opt)
 
 # Main
 st.title('Title') ## write ()
-#folder = 'D:\AI_Chae\data\Vermeer.png'
+
 image_files = ['Vermeer.png', 'Munch.png', 'ShinYoonbok.png']
 
 sel_img_index = sel_opt.index(user_opt)
 # 선택한 항목에 맞는 이미지 파일 지정
 img_file = image_files[sel_img_index]
-img_local = Image.open(r'D:/AI_Chae/data/'+img_file) # data path /
+img_local = Image.open(img_file) # data path /
 st.image(img_local, caption=user_opt) 
 
