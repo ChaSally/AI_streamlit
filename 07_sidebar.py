@@ -1,4 +1,4 @@
-import streamlit as st
+Barimport streamlit as st
 from PIL import Image
 
 # sidebar
@@ -13,7 +13,7 @@ user_opt = st.sidebar.selectbox('favorite', sel_opt)
 st.sidebar.write(user_opt)
 
 # Main
-st.title('Title') ## write ()
+st.title("Sidebar of Streamlit") ## write ()
 
 image_files = ['Vermeer.png', 'Munch.png', 'ShinYoonbok.png']
 
